@@ -182,7 +182,12 @@ const LandingPage = () => {
       <footer className="bg-white">
         <div className="max-w-6xl mx-auto px-4 py-12">
           <div className="text-center text-gray-500 text-sm">
-            © 2024 FrAIde. Tous droits réservés.
+            <div>© 2024 FrAIde. Tous droits réservés.</div>
+            <div className="mt-2">
+              <a href="/privacy" className="text-blue-600 hover:text-blue-800">
+                Politique de confidentialité
+              </a>
+            </div>
           </div>
         </div>
       </footer>
